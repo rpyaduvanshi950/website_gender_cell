@@ -7,6 +7,7 @@ import parul from '../assets/blogs/parul.png';
 import bhavit from '../assets/blogs/bhavit.png';
 import aradhna from '../assets/blogs/aradhana.png';
 import vatsal from '../assets/blogs/vatsal.png';
+import jyoti from '../assets/blogs/jyoti.png'
 function BlogPost() {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -14,15 +15,155 @@ function BlogPost() {
   const blogPosts = [
 
     {
-  id: 6,
-  title: "From Bystander to Upstander: How You Can Intervene\n\nWritten by Gender Cell IIT Kanpur",
-  excerpt: "We’ve all witnessed moments that felt wrong but chose silence. This piece explains how small, safe actions can turn passive bystanders into upstanders who actively stop harassment.",
-  author: "Vatsal, Gender Cell IIT Kanpur",
-  date: "06-01-2026",
-  category: "Awareness",
-  readTime: "5 min read",
-  image: vatsal, // replace with actual imported image variable
-  content: `
+      id: 7,
+      title: "Understanding the POSH Act, 2013\n\nCreating Safe and Respectful Workplaces",
+      excerpt: "Sexual harassment is not just a personal issue—it is a violation of dignity and equality. This article explains the POSH Act, 2013, its scope, implementation, and why it is essential for creating safer and more respectful workplaces.",
+      author: "Jyoti Srivastava, Gender Cell IIT Kanpur",
+      date: "06-01-2026",
+      category: "Awareness",
+      readTime: "6 min read",
+      image: jyoti, // replace with actual imported image variable
+      content: `
+        <h2>Understanding the POSH Act, 2013</h2>
+        <h3>Creating Safe and Respectful Workplaces</h3>
+
+        <p>Sexual harassment at the workplace is not just a personal issue—it is a serious violation of dignity, equality, and the right to work in a safe environment.</p>
+
+        <p>In India, the <strong>Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013</strong>, commonly known as the <strong>POSH Act</strong>, was enacted to address this concern and ensure safer workplaces for women.</p>
+
+        <p>This blog explains what the POSH Act is, why it is important, and how it functions in practice.</p>
+
+        <h3>What is the POSH Act?</h3>
+        <p>The POSH Act was introduced to provide protection against sexual harassment of women at the workplace and to lay down a mechanism for the prevention, prohibition, and redressal of complaints.</p>
+
+        <p>The Act came into force on <strong>9 December 2013</strong>, following the Supreme Court’s <strong>Vishaka Guidelines (1997)</strong>, which recognized sexual harassment as a violation of fundamental rights under Articles 14, 15, and 21 of the Indian Constitution.</p>
+
+        <h3>Who is Covered Under the POSH Act?</h3>
+        <p>The POSH Act has a wide scope and applies to women:</p>
+        <ul>
+          <li>Of any age, whether employed or not</li>
+          <li>Full-time, part-time, temporary, contractual, or ad-hoc employees</li>
+          <li>Interns, trainees, apprentices, and volunteers</li>
+          <li>Domestic workers</li>
+          <li>Visitors or clients at a workplace</li>
+        </ul>
+
+        <h3>What is a “Workplace”?</h3>
+        <p>The definition of workplace is broad and includes:</p>
+        <ul>
+          <li>Offices, institutions, factories, and organizations</li>
+          <li>Educational institutions</li>
+          <li>Hospitals and healthcare facilities</li>
+          <li>Sports institutes and training centers</li>
+          <li>Any place visited during the course of employment</li>
+          <li>Transportation provided by the employer</li>
+        </ul>
+        <p>This ensures protection even beyond the physical office space.</p>
+
+        <h3>What Constitutes Sexual Harassment?</h3>
+        <p>Under the POSH Act, sexual harassment includes any unwelcome act or behavior, whether directly or indirectly, such as:</p>
+        <ul>
+          <li>Physical contact and advances</li>
+          <li>Demand or request for sexual favors</li>
+          <li>Making sexually colored remarks</li>
+          <li>Showing pornography</li>
+          <li>Any other unwelcome physical, verbal, or non-verbal conduct of a sexual nature</li>
+        </ul>
+        <p><strong>Unwelcome behavior</strong> is the key factor—not intention.</p>
+
+        <h3>Internal Committee (IC): The Core of POSH Implementation</h3>
+        <p>Every organization with <strong>10 or more employees</strong> is required to constitute an Internal Committee (IC).</p>
+
+        <h4>Composition of the Internal Committee</h4>
+        <ul>
+          <li>A Presiding Officer (a senior woman employee)</li>
+          <li>At least two employee members committed to women’s causes</li>
+          <li>One external member from an NGO or association familiar with issues of sexual harassment</li>
+        </ul>
+        <p>At least <strong>50% of the members must be women</strong>, ensuring gender-sensitive handling of complaints.</p>
+
+        <h3>How ICC Works at IITs (Including IIT Kanpur)</h3>
+        <p>At IITs, the IC is commonly referred to as the <strong>Internal Complaints Committee (ICC)</strong>. The ICC functions as the primary body to receive and address complaints of sexual harassment involving students, staff, faculty, or any campus visitor.</p>
+
+        <ul>
+          <li>Confidentiality and safety of the complainant are prioritized</li>
+          <li>Members include faculty, staff, and student representatives</li>
+          <li>Support may be taken from the Gender Cell, counseling services, and campus security</li>
+        </ul>
+
+        <h3>Filing a Complaint</h3>
+        <ul>
+          <li>A complaint should be filed within <strong>3 months</strong> of the incident (extendable in certain cases)</li>
+          <li>Complaints can be made in writing or with assistance from the IC</li>
+          <li>If the aggrieved person is unable to file due to physical or mental incapacity, a legal heir or prescribed person may do so</li>
+        </ul>
+
+        <h3>Confidentiality</h3>
+        <p>The POSH Act strictly mandates confidentiality. Details of the complaint, identities of parties, and proceedings cannot be disclosed, ensuring privacy and protection from retaliation.</p>
+
+        <h3>Inquiry and Redressal Process</h3>
+        <ul>
+          <li>The IC conducts a fair and unbiased inquiry</li>
+          <li>Both parties are given an opportunity to be heard</li>
+          <li>The inquiry must be completed within <strong>90 days</strong></li>
+          <li>The employer must act on the report within <strong>60 days</strong></li>
+        </ul>
+
+        <h4>Possible Outcomes</h4>
+        <ul>
+          <li>Disciplinary action against the respondent</li>
+          <li>Written apology, warning, or counseling</li>
+          <li>Deduction from salary as compensation</li>
+          <li>Termination, depending on severity</li>
+        </ul>
+        <p>The Act also safeguards against false or malicious complaints, while ensuring that inability to prove a complaint does not automatically imply malice.</p>
+
+        <h3>Duties of the Employer</h3>
+        <ul>
+          <li>Creating and communicating a POSH policy</li>
+          <li>Constituting the Internal Committee</li>
+          <li>Conducting regular awareness and sensitization programs</li>
+          <li>Providing a safe working environment</li>
+          <li>Assisting the IC during inquiries</li>
+          <li>Submitting annual reports to authorities</li>
+        </ul>
+        <p>Non-compliance can lead to penalties, cancellation of licenses, or withdrawal of government benefits.</p>
+
+        <h3>Gender Cell at IITs (Including IIT Kanpur)</h3>
+        <p>In addition to the ICC, IITs often have a <strong>Gender Cell</strong> that works to promote gender equality and create a safer campus environment.</p>
+
+        <ul>
+          <li>Conducting gender sensitization workshops</li>
+          <li>Helping students and staff understand POSH rights and procedures</li>
+          <li>Acting as a first point of contact for those unsure about filing complaints</li>
+          <li>Coordinating with ICC, counseling services, and campus security</li>
+        </ul>
+
+        <h3>Why the POSH Act Matters</h3>
+        <ul>
+          <li>Builds respectful and inclusive workplaces</li>
+          <li>Empowers women to speak up without fear</li>
+          <li>Promotes gender equality</li>
+          <li>Improves organizational culture and productivity</li>
+        </ul>
+
+        <h3>Conclusion</h3>
+        <p>The POSH Act is a powerful tool that upholds the dignity and rights of women at the workplace.</p>
+        <p>Awareness, proper implementation, and collective responsibility are key to its success.</p>
+        <p><strong>Creating a harassment-free environment is not optional. It is essential.</strong></p>
+  `
+    },
+
+    {
+      id: 6,
+      title: "From Bystander to Upstander: How You Can Intervene",
+      excerpt: "We’ve all witnessed moments that felt wrong but chose silence. This piece explains how small, safe actions can turn passive bystanders into upstanders who actively stop harassment.",
+      author: "Vatsal, Gender Cell IIT Kanpur",
+      date: "06-01-2026",
+      category: "Awareness",
+      readTime: "5 min read",
+      image: vatsal, // replace with actual imported image variable
+      content: `
         <h2>From Bystander to Upstander: How You Can Intervene</h2>
         <h3>Small, Safe Actions That Can Stop Harassment Before It Escalates</h3>
 
@@ -100,16 +241,16 @@ function BlogPost() {
 
         <p><strong>Need help?</strong> The Gender Cell and ICC are here. DM us, email us, or drop by — we’ve got your back.</p>
   `
-},{
-     id: 5,
-     title: "Understanding Cyberbullying and Cyber Harassment: A Growing Digital Threat\n\nWritten by Gender Cell IIT Kanpur",
-     excerpt: "In today’s hyperconnected world, online spaces have become an integral part of our identity — but they also expose us to harmful behaviours such as cyberbullying and cyber harassment.",
-     author: "Aradhana",
-     date: "5th December, 2025",
-     category: "Awareness",
-     readTime: "6 min read",
-     image: aradhna,
-     content: `
+    }, {
+      id: 5,
+      title: "Understanding Cyberbullying and Cyber Harassment: A Growing Digital Threat",
+      excerpt: "In today’s hyperconnected world, online spaces have become an integral part of our identity — but they also expose us to harmful behaviours such as cyberbullying and cyber harassment.",
+      author: "Aradhana, Gender Cell IIT Kanpur",
+      date: "5th December, 2025",
+      category: "Awareness",
+      readTime: "6 min read",
+      image: aradhna,
+      content: `
            <h2>Understanding Cyberbullying and Cyber Harassment: A Growing Digital Threat</h2>
            <h3>Recognizing and Responding to Online Abuse in a Hyperconnected World</h3>
    
@@ -190,107 +331,95 @@ function BlogPost() {
            <p>Every harmful message, fake account, or intimidating comment affects a real human being behind the screen.</p>
            <p>By understanding what these behaviors look like and actively standing against them, we create safer digital spaces for everyone.</p>
      `
-   }, {
-  id: 4,
-  title: "Understanding The Harassment In College\n\nWritten by Gender Cell IIT Kanpur",
-  excerpt: "College is meant to be a space to learn and grow — not a place where anyone feels unsafe or unheard. Yet harassment remains one of the most ignored issues on campuses.",
-  author: "Bhavit Meena",
-  date: "6th November, 2025",
-  category: "Awareness",
-  readTime: "6 min read",
-  image: bhavit,
-  content: `
-    <h2>Understanding The Harassment In College</h2>
-    <h3>Creating a Campus Where Everyone Feels Safe, Respected, and Heard</h3>
-    <p>College is meant to be a space to learn, grow, and discover who you are. However, for many students, faculties and staff members, it can also become a place where they face uncomfortable or even unsafe situations. One of the persistent challenges in college environments is harassment. Even though discussions about it have become more common, many still choose to ignore or avoid the issue.</p>
-    <p>A major complication is that many students, employees and faculty don’t fully understand what harassment truly is. It is often brushed off as “fun,” “just a joke,” or “part of college culture.” This misunderstanding makes it difficult to recognize when boundaries are crossed — which is why it’s crucial to pause and understand what harassment really means.</p>
-
-    <h2>What Exactly Is Harassment?</h2>
-    <p>Harassment occurs when someone does or says something, either in person or online, that makes another person feel uncomfortable, unsafe, or disrespected. It can come from classmates, teachers, staff members, colleagues, or others. The impact is real, affecting mental health, focus, and overall college experience.</p>
-
-    <h2>Common Types of Harassment</h2>
-
-    <h3>Sexual Harassment</h3>
-    <p>Any unwelcome conduct of a sexual nature — verbal, non-verbal, physical, or visual — that causes discomfort, humiliation, or intimidation. Examples include unwanted touching, comments or gestures, stalking, sending explicit content without consent, or requesting sexual favors in exchange for grades or opportunities.</p>
-
-    <h3>Ragging and Bullying</h3>
-    <p>Ragging and bullying involve forcing juniors into humiliating tasks, from embarrassing acts (singing, dancing, or unusual self-introductions) to verbal abuse, physical intimidation, or even violence, often justified as “fun” or “tradition.”</p>
-
-    <h3>Cyber Harassment and Cyberbullying</h3>
-    <p>In today’s digital era, online spaces are also vulnerable to harassment. Cyber harassment includes threatening messages, spreading lies, sharing private photos without consent, or doxxing (leaking someone’s personal details such as phone numbers).</p>
-
-    <h3>Discrimination-Based Harassment</h3>
-    <p>Harassment may target individuals based on caste, religion, gender, sexuality, or disability. Such behavior isolates individuals, fosters exclusion, and creates a hostile campus environment rather than a supportive one.</p>
-
-    <h3>Mental and Emotional Harassment</h3>
-    <p>Not all harassment is physical. Psychological harm can be just as damaging. Constant insults, manipulation, or isolating someone from group activities can break confidence and affect mental well-being. Often masked as “just kidding,” its impact is very real.</p>
-
-    <h3>Power and Authority Harassment</h3>
-    <p>Those in positions of authority can misuse their power, causing deep harm. Faculty may unfairly grade, deny resources, or demand personal favors for academic support. Seniors in hostels or club leaders can also exploit their position to intimidate or silence others, creating fear and inequality.</p>
-
-    <h2>Why Do People Stay Silent?</h2>
-    <p>Many hesitate to report harassment, and the reasons are complex. Some fear of being judged, excluded, or labeled as “too sensitive.” Others are unsure if their experience qualifies as harassment, especially when behaviors are normalized in the name of “fun” or “culture.” Many don’t know where or how to report, while some fear retaliation from the harasser. Others simply believe their complaint will not be taken seriously.</p>
-    <p>The result? Silence allows harassment to continue — not just for one person, but for others who may face the same situation later.</p>
-
-    <h2>What Can We Actually Do?</h2>
-    <ul>
-      <li><b>Speak Up:</b> If something feels wrong, it probably is. Don’t ignore that feeling. Keep evidence (messages, screenshots, etc.) and report the incident.</li>
-      <li><b>Know Where to Go for Help:</b> Colleges have support systems in place. At IITK, these include the <b>Gender Cell</b>, the <b>Internal Complaints Committee (ICC)</b> for sexual harassment, and the <b>Anti-Ragging Committee</b>. They exist to help and handle matters confidentially and fairly. Don’t hesitate to reach out.</li>
-      <li><b>Spread Awareness:</b> Discussing harassment matters. Organizing or attending workshops, events, and open discussions helps make the campus safer and more respectful for everyone.</li>
-      <li><b>Support Each Other:</b> When someone speaks up, believe them and stand by their side. Never dismiss experiences as “normal culture” or “just fun.” Even small acts of support can give someone the courage to come forward.</li>
-    </ul>
-
-    <h2>Conclusion</h2>
-    <p>College should be a place to learn, grow, and feel safe — not a place where anyone feels uncomfortable or scared. Often, people don’t intend to harass, but their actions can still cause harm, no matter how harmless the intention seems. Each of us has a role to play in making our campus safer, kinder, and more inclusive. By speaking up, supporting each other, and using the help systems already in place, we can turn awareness into real change — and ensure that everyone can enjoy college without fear.</p>
-    <p><b>So next time, when you take an action “just for fun,” pause and ask:</b> Am I actually harming someone? Change starts with us, and even small actions can make a big difference.</p>
-
-    <h2>Creating a Culture of Clear Consent</h2>
-    <p>Creating a culture of clear consent so everyone can learn, live, and belong.</p>
-    <p>College should be a place to grow, intellectually, socially, and morally. But when interactions that should be harmless become invasive, they steal safety and opportunity.</p>
-
-    <h3>What Exactly Is Consent?</h3>
-    <p>At its simplest, consent means permission given freely and knowingly. Consent is about mutual respect and communication. It involves checking in with others and respecting their right to say no or to change their mind.</p>
-    <p>In any type of relationship — romantic, platonic, or professional — consent ensures that everyone feels safe and empowered to make decisions about their bodies, emotions, and boundaries.</p>
-
-    <h3>Why Focus on Consent on Campus?</h3>
-    <p>Clear consent is essential to prevent misunderstandings, protect people from unwanted actions, and build trust and respect. Without it, even small actions can cause discomfort, confusion, or harm. Whether it’s a group activity, a social event, or personal interactions, saying “yes” or “no” clearly ensures everyone knows what is okay and creates a campus where everyone feels safe, valued, and included.</p>
-
-    <h3>The FRIES Model of Consent</h3>
-    <p>A useful way to understand consent is through the FRIES model, developed by Planned Parenthood:</p>
-    <ul>
-      <li><b>F – Freely Given:</b> Consent must be given voluntarily, without manipulation, pressure, threats, or intoxication. <i>Example:</i> If someone is pressured into a relationship by a colleague, senior, or supervisor in exchange for benefits like grades or job opportunities, that is not valid consent.</li>
-      <li><b>R – Reversible:</b> Anyone can change their mind at any time. Consent is ongoing. <i>Example:</i> Someone agrees to a kiss but halfway through says “stop.” Their choice must be respected immediately.</li>
-      <li><b>I – Informed:</b> All parties must have full information before giving consent. Misleading or hiding facts makes consent invalid. <i>Example:</i> If you asked someone for consent to kiss but then started hugging them instead, that consent is not informed — they agreed to one thing, not another.</li>
-      <li><b>E – Enthusiastic:</b> Consent should come from genuine willingness, not reluctant agreement. <i>Example:</i> If you ask someone for consent and they stay silent or avoid answering, their silence does not mean yes. Only a clear, willing “yes” counts.</li>
-      <li><b>S – Specific:</b> Saying yes to one activity does not mean yes to everything. Each act needs separate consent. <i>Example:</i> Agreeing to hold hands does not mean agreeing to hug. Each step needs a clear agreement.</li>
-    </ul>
-    <p>The FRIES model reminds us that consent is not a formality — it is about respect, communication, and empathy.</p>
-
-    <h3>Practical Steps for a Consent-Friendly Campus</h3>
-    <ul>
-      <li><b>Ask clearly and listen carefully:</b> Always ask direct questions. If someone hesitates or seems unsure, stop. Consent is never assumed from silence or past behavior.</li>
-      <li><b>Respect boundaries and power differences:</b> If you are in a position of authority, be extra careful. People may feel pressured to say “yes” even if they mean “no.” Never ask for favors in exchange for grades, opportunities, or social benefits.</li>
-      <li><b>Always feel free to say “No”:</b> Saying no is your right and must be respected. Your choice can change anytime, and you don’t owe an explanation.</li>
-      <li><b>Keep evidence if needed:</b> If harassment or non-consensual behavior occurs, save messages, screenshots, dates, times, and witnesses. This helps with formal reporting.</li>
-    </ul>
-
-    <h3>Reporting Consent Violations</h3>
-    <p>If someone violates your consent, report it through the proper campus channels, such as the <b>Internal Complaints Committee (ICC)</b> or <b>Gender Cell</b>. Reporting helps ensure the problem is addressed and prevents harm from continuing.</p>
-
-    <h3>Conclusion</h3>
-    <p>Consent may seem simple in theory, but it can be complicated in practice. Change starts with asking direct questions, respecting answers, and supporting a culture that values safety and respect. When everyone participates, institutions provide clear support, and harmful behaviors are not tolerated, the campus becomes a place where everyone can learn, live, and belong. Even small actions can make a big difference.</p>
-  `
-}
-,{
-  id: 3,
-  title: "Understanding The Harassment In College\n\nWritten by Gender Cell IIT Kanpur",
-  excerpt: "College is meant to be a space to learn and grow — not a place where anyone feels unsafe or unheard. Yet harassment remains one of the most ignored issues on campuses.",
-  author: "Parul Parmar",
-  date: "6th October, 2025",
-  category: "Awareness",
-  readTime: "8 min read",
-  image: parul,
-  content: `
+    }, {
+      id: 4,
+      title: "Creating a Culture of Clear Consent",
+      excerpt: "Consent is more than a word—it’s about respect, communication, and safety. This article explains what consent truly means, why it matters on campus, and how the FRIES model helps build a culture where everyone feels safe and empowered.",
+      author: "Bhavit Meena, Gender Cell IIT Kanpur",
+      date: "6th November, 2025",
+      category: "Awareness",
+      readTime: "6 min read",
+      image: bhavit,
+      content: `
+            <h2>Creating a Culture of Clear Consent</h2>
+            <h3>Creating a culture of clear consent so everyone can learn, live, and belong</h3>
+    
+            <p>College should be a place to grow—intellectually, socially, and morally. But when interactions that should be harmless become invasive, they steal safety and opportunity.</p>
+    
+            <p>Building a culture of clear consent is essential to ensuring that every member of the campus community feels safe, respected, and valued.</p>
+    
+            <h3>What Exactly Is Consent?</h3>
+            <p>At its simplest, <strong>consent</strong> means permission given freely and knowingly.</p>
+    
+            <p>Consent is about mutual respect and communication. It involves checking in with others and respecting their right to say no—or to change their mind.</p>
+    
+            <p>In any type of relationship—romantic, platonic, or professional—consent ensures that everyone feels safe and empowered to make decisions about their bodies, emotions, and boundaries.</p>
+    
+            <h3>Why Focus on Consent on Campus?</h3>
+            <p>Clear consent is essential to prevent misunderstandings, protect people from unwanted actions, and build trust and respect.</p>
+    
+            <p>Without consent, even small actions can cause discomfort, confusion, or harm. Whether it’s a group activity, a social event, or personal interactions, clearly saying “yes” or “no” ensures that everyone knows what is okay.</p>
+    
+            <p>A campus that values consent is a campus where everyone feels safe, included, and respected.</p>
+    
+            <h3>The FRIES Model of Consent</h3>
+            <p>A useful way to understand consent is through the <strong>FRIES model</strong>, developed by Planned Parenthood:</p>
+    
+            <h4>F – Freely Given</h4>
+            <p>Consent must be given voluntarily, without manipulation, pressure, threats, or intoxication.</p>
+            <p><em>Example:</em> If someone is pressured into a relationship by a colleague, senior, or supervisor in exchange for grades or job opportunities, that is not valid consent.</p>
+    
+            <h4>R – Reversible</h4>
+            <p>Anyone can change their mind at any time. Consent is ongoing.</p>
+            <p><em>Example:</em> Someone agrees to a kiss but halfway through says “stop.” Their choice must be respected immediately.</p>
+    
+            <h4>I – Informed</h4>
+            <p>All parties must have full information before giving consent. Misleading or hiding facts makes consent invalid.</p>
+            <p><em>Example:</em> If you ask someone for consent to kiss but then start hugging them instead, that consent is not informed.</p>
+    
+            <h4>E – Enthusiastic</h4>
+            <p>Consent should come from genuine willingness, not reluctant agreement.</p>
+            <p><em>Example:</em> Silence, hesitation, or avoidance is not consent. Only a clear and willing “yes” counts.</p>
+    
+            <h4>S – Specific</h4>
+            <p>Saying yes to one activity does not mean yes to everything. Each act needs separate consent.</p>
+            <p><em>Example:</em> Agreeing to hold hands does not mean agreeing to hug. Each step requires agreement.</p>
+    
+            <p>The FRIES model reminds us that consent is not a formality—it is about respect, communication, and empathy.</p>
+    
+            <h3>Practical Steps for a Consent-Friendly Campus</h3>
+    
+            <ul>
+              <li><strong>Ask clearly and listen carefully:</strong> Always ask direct questions. If someone hesitates or seems unsure, stop.</li>
+              <li><strong>Respect boundaries and power differences:</strong> If you hold authority, be extra cautious. Never ask for favors in exchange for grades, opportunities, or social benefits.</li>
+              <li><strong>Always feel free to say “No”:</strong> Saying no is your right. You can change your mind at any time and you don’t owe an explanation.</li>
+              <li><strong>Keep evidence if needed:</strong> Save messages, screenshots, dates, times, and witness details if non-consensual behavior occurs.</li>
+            </ul>
+    
+            <h3>Reporting Consent Violations</h3>
+            <p>If someone violates your consent, report it through proper campus channels such as the <strong>Internal Complaints Committee (ICC)</strong> or the <strong>Gender Cell</strong>.</p>
+    
+            <p>Reporting helps ensure accountability and prevents harm from continuing.</p>
+    
+            <h3>Conclusion</h3>
+            <p>Consent may seem simple in theory, but it can be complicated in practice.</p>
+    
+            <p>Change starts with asking direct questions, respecting answers, and supporting a culture that prioritizes safety and respect.</p>
+    
+            <p>When individuals act responsibly, institutions provide clear support, and harmful behaviors are not tolerated, campuses become places where everyone can truly learn, live, and belong.</p>
+    
+            <p><strong>Even small actions can make a big difference.</strong></p>
+      `
+    }, {
+      id: 3,
+      title: "Understanding The Harassment In College",
+      excerpt: "College is meant to be a space to learn and grow — not a place where anyone feels unsafe or unheard. Yet harassment remains one of the most ignored issues on campuses.",
+      author: "Parul Parmar, Gender Cell IIT Kanpur",
+      date: "6th October, 2025",
+      category: "Awareness",
+      readTime: "8 min read",
+      image: parul,
+      content: `
     <h2>Understanding The Harassment In College</h2>
     <h3>Creating a Campus Where Everyone Feels Safe, Respected, and Heard</h3>
     <p>College is meant to be a space to learn, grow, and discover who you are. However, for many students, faculties and staff members, it can also become a place where they face uncomfortable or even unsafe situations. One of the persistent challenges in college environments is harassment. Even though discussions about it have become more common, many still choose to ignore or avoid the issue.</p>
@@ -335,11 +464,11 @@ function BlogPost() {
     <p>College should be a place to learn, grow, and feel safe — not a place where anyone feels uncomfortable or scared. Often, people don’t intend to harass, but their actions can still cause harm, no matter how harmless the intention seems. Each of us has a role to play in making our campus safer, kinder, and more inclusive. By speaking up, supporting each other, and using the help systems already in place, we can turn awareness into real change — and ensure that everyone can enjoy college without fear.</p>
     <p><b>So next time, when you take an action “just for fun,” pause and ask:</b> Am I actually harming someone? Change starts with us, and even small actions can make a big difference.</p>
   `
-},{
+    }, {
       id: 2,
-      title: "The Gender Lens: Seeing What We Miss\n\nWritten by Sonal",
+      title: "The Gender Lens: Seeing What We Miss",
       excerpt: "Bias doesn’t always arrive with insults or discrimination. It’s often hidden in the way we give compliments, divide responsibilities, or make casual remarks.",
-      author: "Sonal",
+      author: "Sonal, Gender Cell IIT Kanpur",
       date: "September 6, 2025",
       category: "Awareness",
       readTime: "7 min read",
@@ -391,11 +520,11 @@ function BlogPost() {
         <p>These may not look like big changes, but together, they create fairness and dignity.</p>
         <p>Looking through the gender lens means asking better questions. It’s about understanding more and assuming less. We just need to start noticing what we’ve been missing. The gender lens helps us see the gender biased patterns—not to blame, but to begin conversations and change.<br/>Let’s begin there.</p>
       `
-    },  ,{
+    }, , {
       id: 1,
       title: "It’s not about intention, it’s about impact",
       excerpt: "Sexual harassment often occurs not because someone intends harm but because they fail to understand the impact of their actions. That’s why understanding the impact over intention is so important, especially in the context of gender sensitivity.",
-      author: "Snehlata Rao",
+      author: "Snehlata Rao, Gender Cell IIT Kanpur",
       date: "April 2024",
       category: "Awareness",
       readTime: "5 min read",
@@ -448,25 +577,25 @@ function BlogPost() {
           ← Back to Blogs
         </button>
       </div>
-      
+
       <article className="blog-post-content">
         <div className="blog-post-image">
           <img src={post.image} alt={post.title} />
         </div>
-        
+
         <div className="blog-post-meta">
           <span className="blog-post-category">{post.category}</span>
           <span className="blog-post-date">{post.date}</span>
           <span className="blog-post-read-time">{post.readTime}</span>
         </div>
-        
+
         <h1 className="blog-post-title">{post.title}</h1>
-        
+
         <div className="blog-post-author">
           <span>By {post.author}</span>
         </div>
-        
-        <div 
+
+        <div
           className="blog-post-body"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
