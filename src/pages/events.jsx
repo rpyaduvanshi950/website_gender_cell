@@ -6,29 +6,26 @@ import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 import { Fade } from "react-awesome-reveal";
 import case1 from '../assets/images_events/case.png';
 import womensDay1 from '../assets/images_events/wday5.jpeg';
-import runwalk1 from '../assets/images_events/run_walk1.png';
 import runwalk2 from '../assets/images_events/run_walk2.png';
 import runwalk3 from '../assets/images_events/run_walk3.png';
-// import movie_screening2 from '../assets/images_events/movie2.jpg';
 import open1 from '../assets/images/open1.jpg';
 import LinksSection from "../components/Linkscard/LinkCard";
 import hall1 from "../assets/images_events/hall1.jpg";
 import hall2 from "../assets/images_events/hall2.jpg";
 import lapata1 from "../assets/images_events/lapata1.png";
 import lapata2 from "../assets/images_events/lapata2.png";
-// import case from 'src/assets/images_events/case.png';
 import barbie1 from '../assets/images_events/barbie1.png'
 import barbie2 from '../assets/images_events/barbie2.png'
 import meme from '../assets/images_events/meme.png';
 import movie_screening2 from '../assets/images_events/movie4.jpeg';
 import wall_of_voices from '../assets/images_events/wall_of_voices.png';
 import blogs from '../assets/images_events/blogs.png';
-import kiit from '../assets/images_events/kiit.png';
 import opportunity from '../assets/images_events/opportunity.jpg';
 import goonj from '../assets/images_events/goonj.jpg';
 import pyras from '../assets/images_events/pyras.png';
 import Tote_bag from '../assets/images_events/Tote_bag.png';
 import sis_sens from '../assets/images_events/sis_sens.png';
+import quiz from '../assets/images_events/quiz.png';
 
 
 const EventsPage = () => {
@@ -88,6 +85,12 @@ const EventsPage = () => {
 
   const events = [
     {
+      subtitle: "Gen-Der Quiz",
+      description: `Date: 27th January, 2026 <br/>
+Venue: <br/> The Gender Cell, in collaboration with the Quiz Club, conducted the Gen-Der Quiz. The event aimed to challenge stereotypes and spread awareness about gender-related issues through an engaging and competitive quiz format. Participants from across the campus joined in to test their knowledge and learn more about the importance of gender equality and inclusivity.`,
+      image: quiz,
+    },
+    {
       subtitle: "Paint the Tote Bag – Paint Your Voice",
       description: `Date: 17th January, 2026 <br/>
 Venue: OAT<br/> The Gender Cell organized a creative art-based event titled Paint the Tote Bag with the theme “Paint Your Voice.” The event provided participants with a platform to express their thoughts, emotions, and perspectives on gender equality, identity, and empowerment through art. By combining creativity with social messaging, the activity encouraged self-expression, dialogue, and awareness in an inclusive and engaging environment.
@@ -95,18 +98,18 @@ Venue: OAT<br/> The Gender Cell organized a creative art-based event titled Pain
         Tote_bag,
     },
     {
+      subtitle: "Sensitization Session on Respect and Personal Safety",
+      description: `Date:  10th January, 2026 <br/>
+    Venue: <br/> The Gender Cell, in collaboration with the PYRAS Club for Children, conducted a sensitization session aimed at spreading awareness about respect, personal safety, and healthy boundaries among students. The session focused on age-appropriate discussions and interactive engagement to help participants understand the importance of consent, mutual respect, and personal well-being. Through this collaborative effort, the initiative promoted a safe, supportive, and informed community.`
+      , image:
+        pyras,
+    },
+    {
       subtitle: "SIS Sensitization Program",
       description: `Date:   3rd to 7th December, 2026 <br/>
 Venue: <br/> The Gender Cell conducted the SIS Sensitization Program, a multi-slot initiative aimed at building awareness on gender sensitivity, respectful communication, and inclusive practices. Held across four interactive sessions, the program equipped participants with essential understanding of gender-related concerns and encouraged them to reflect on their role in fostering a safer, more equitable campus environment.`
       , image:
         sis_sens,
-    },
-    {
-      subtitle: "Sensitization Session on Respect and Personal Safety",
-      description: `Date:  10th January, 2026 <br/>
-Venue: <br/> The Gender Cell, in collaboration with the PYRAS Club for Children, conducted a sensitization session aimed at spreading awareness about respect, personal safety, and healthy boundaries among students. The session focused on age-appropriate discussions and interactive engagement to help participants understand the importance of consent, mutual respect, and personal well-being. Through this collaborative effort, the initiative promoted a safe, supportive, and informed community.`
-      , image:
-        pyras,
     },
     {
       subtitle: "Poetry Competition – Goonj: Echoes Unheard",
