@@ -4,6 +4,7 @@ import '../css/Resources.css'
 import BannerCard from '../components/Card/BannerCard';
 import LinksSection from '../components/Linkscard/LinkCard';
 import React, { useState, useEffect } from 'react';
+import pdfExports from '../setups/pdfExports';
 // import ReadMore from "../components/ReadMore";
 
 function Resources() {
@@ -31,7 +32,7 @@ function Resources() {
       name: "The Sexual Harassment of Women at Workplace Act, 2013 (POSH)",
       author: "Ministry of Law and Justice",
       resourceType: "Act",
-      link: "https://drive.google.com/file/d/11n9HL9SIGfCHMhTZhmdJ8ohIaX-Kgt2s/view?usp=drive_link"
+      link: pdfExports.sexual_harassment_act
     },{
       name: "Internal Complaints Committee",
       author: "ICC",
@@ -41,66 +42,66 @@ function Resources() {
       name: "CSS Conduct Rules",
       author: "Department of Personnel and Training ",
       resourceType: "Rules",
-      link: "https://drive.google.com/file/d/1InAyLMV51J7SBKR2TwQcYQhNmsepdqNu/view "
+      link: pdfExports.ccs_conduct_rules
     },
     {
       name: "Rules for The Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013.",
       author: "Department of Women and Child Development",
       resourceType: "Rules",
-      link: "https://drive.google.com/file/d/11n9HL9SIGfCHMhTZhmdJ8ohIaX-Kgt2s/view?usp=drive_link"
+      link: pdfExports.sexual_harassment_act
     },
 {
       name: "HANDBOOK on Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013.",
       author: "Department of Women and Child Development",
       resourceType: "Rules",
-      link: "https://drive.google.com/file/d/17A1q54ckDjmU4E2hdTAyQ9HgZZ3Q-Iac/view?usp=drive_link"
+      link: pdfExports.handbook_sexual_harassment
     },
     {
       name: "The Criminal Law (Amendment) Act, 2013",
       author: "Ministry of Law and Justice",
       resourceType: " Law and Act",
-      link: "https://drive.google.com/file/d/1_d55FDziewIlE5BdD0hHpITrb2mT0mug/view?usp=sharing"
+      link: pdfExports.criminal_law
     },
     {
       name: "The Constitution of India Guarantees fundamental rights for equality, freedom, and safety through Articles 14, 15, 16, 19(1)(g), and 21",
       author: "Ministry of Women and Child Development",
       resourceType: "Constitution",
-      link: "https://drive.google.com/file/d/1rPmIUcMqTQEQs5Tj4u3siiGv8ATrfpak/view?usp=drive_link"
+      link: pdfExports.coi_4march2016
     },{
       name: "Prevention, Prohibition, and Redressal of Sexual Harassment of Students Rules, 2017",
       author: "IIT Kanpur",
       resourceType: "Rules",
-      link: "https://drive.google.com/file/d/1d0SVFABd7i2eedQ_W3qwjaa9yVwHJQl-/view?usp=drive_link"
+      link: pdfExports.rules_2017
     },{
       name: "IIT Kanpur Policy on Romantic or Sexual Relationships between Individuals in Positions of Authority and Students/Employees of the Institute",
       author: "IIT Kanpur",
       resourceType: "Policy",
-      link: "https://drive.google.com/file/d/1T5ZbH-NFuLAJlrK4B8EZUp0ohpdT6M-n/view?usp=drive_link"
+      link: pdfExports.relationship_policy_oo
     },{
       name: "IIT Kanpur Prevention, Prohibition and Redressal of Sexual Harassment of Students Rules, 2017",
       author: "IIT Kanpur",
       resourceType: "Rules",
-      link: "https://drive.google.com/file/d/1d0SVFABd7i2eedQ_W3qwjaa9yVwHJQl-/view?usp=drive_link"
+      link: pdfExports.rules_2017
     },{
       name: "The Indian Penal Code",
       author: "The First Law Commission",
       resourceType: "Handbook",
-      link: "https://drive.google.com/file/d/1NzUpkvmnCnzDTZwMyqSlJ6uQbpcVWL20/view?usp=drive_link"
+      link: pdfExports.ipc_186045
     },{
       name: "UGC Regulations 2015",
       author: "Ministry of Education of India",
       resourceType: "Handbook",
-      link: "https://drive.google.com/file/d/1Yrmm3-9rKyadx6fW5WxQ7DUoanx-zi1V/view?usp=drive_link"
+      link: pdfExports.ugc_regulations
     },{
       name: "Vishaka Guidelines against Sexual Harassment at Workplace",
       author: "Hon’ble Supreme Court",
       resourceType: "Handbook",
-      link: "https://drive.google.com/file/d/1tZQGs104wLKLBdK6WPMa_CiNW2uRan9X/view?usp=drive_link"
+      link: pdfExports.vishaka_guidelines
     },{
       name: "UGC Regulations 2015",
       author: "Ministry of Education of India",
       resourceType: "Handbook",
-      link: "https://drive.google.com/file/d/1Yrmm3-9rKyadx6fW5WxQ7DUoanx-zi1V/view?usp=drive_link"
+      link: pdfExports.ugc_regulations
     }
   ];
     const articles=[
@@ -144,19 +145,19 @@ function Resources() {
       name: "Judgement ADJ",
       author: "ADJ",
       resourceType: "Judgement and Order",
-      link: "https://drive.google.com/file/d/10pxaLLd6ELuXmaVCgtV7n_1QmhIpFoar/view?usp=drive_link"
+      link: pdfExports.judgement_adj
     },
     {
       name: "Judgement M.K. Lele",
       author: " M.K. Lele,",
       resourceType: "Judgement and Order",
-      link: "https://drive.google.com/file/d/16LSgDR_HDD8oqaw-W-k62EFc4i1xJ-L3/view?usp=drive_link"
+      link: pdfExports.judgement_mk_lele
     },
     {
       name: "Judgement Seema Lepcha",
       author: "Seema Lepcha",
       resourceType: "Judgement and Order",
-      link:  "https://drive.google.com/file/d/1NkvpHAv9uglw6kUjrXQgoEorCyVibdBs/view?usp=drive_link"
+      link:  pdfExports.judgement_seema_lepcha
     },
     {
       name: " Judgements and Orders related to Sexual Harassment Case",
@@ -337,7 +338,7 @@ const Officeorders=[
     name: "Office Order for Relationship policy",
     author: "Gender Cell IITK",
     resourceType: "Office orders",
-    link: "https://drive.google.com/file/d/1wQMr0MQ7pgF2r-hvWPAKJteGPcVEpiEg/view?usp=sharing"
+    link: pdfExports.relationship_policy_oo
   },
 ]
 const Officeorders2=[
@@ -425,7 +426,7 @@ return (
         </p>
         <p>
           The Gender Cell of IIT Kanpur was constituted in accordance with the{' '}
-          <a href="https://drive.google.com/file/d/11n9HL9SIGfCHMhTZhmdJ8ohIaX-Kgt2s/view?usp=drive_link"  className='link1'>
+          <a href={pdfExports.sexual_harassment_act}  className='link1'>
             Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013
           </a>
           . The Cell's mandate includes sensitizing the community towards gender-related issues, and in this regard,
@@ -441,7 +442,7 @@ return (
         <p>The Cell also advises on available courses of action to people on campus who may be in distress.</p>
         <p>
           <strong>Mandate of the Gender Cell:</strong> a{' '}
-          <a href="https://drive.google.com/file/d/1n1TDtLwd1HoBMlgyhMrgKYZWMVLRqzKN/view?usp=drive_link" target="_blank" className='link1'>
+          <a href={pdfExports.mandate_womens_cell} target="_blank" className='link1'>
             link
           </a>{' '}
           to the office order.
@@ -497,7 +498,7 @@ return (
         </ul>
         <p>
           These are criminal offenses (
-          <a href="https://drive.google.com/file/d/11n9HL9SIGfCHMhTZhmdJ8ohIaX-Kgt2s/view?usp=drive_link" target="_blank" className='link1'>
+          <a href={pdfExports.sexual_harassment_act} target="_blank" className='link1'>
             link
           </a>
           ).
@@ -516,7 +517,7 @@ return (
             <p>
               <em>Stalking</em>: following a woman, contacting (or attempting to contact) a woman despite a clear
               indication of disinterest by the woman; monitoring the use of the internet by a woman (
-              <a href="https://drive.google.com/file/d/1_d55FDziewIlE5BdD0hHpITrb2mT0mug/view?usp=drive_link" target="_blank" style={{ paddingRight: '0px' }} className='link1'>
+              <a href={pdfExports.criminal_law} target="_blank" style={{ paddingRight: '0px' }} className='link1'>
                 link
               </a>
               )
@@ -525,7 +526,7 @@ return (
           <li>
             <p>
               <em>Exhibitionism</em>: Word, gesture or act intended to insult the modesty of a woman (
-              <a href="https://drive.google.com/file/d/1_d55FDziewIlE5BdD0hHpITrb2mT0mug/view?usp=drive_link" target="_blank" style={{ paddingRight: '0px' }} className='link1'>
+              <a href={pdfExports.criminal_law} target="_blank" style={{ paddingRight: '0px' }} className='link1'>
                 IPC Section 509 - link
               </a>
               )
@@ -546,7 +547,7 @@ return (
               <strong>
                 IIT Kanpur has put in place a gender neutral policy on Prevention, Prohibition and Redressal of Sexual
                 Harassment of Students (
-                <a href="https://drive.google.com/file/d/1d0SVFABd7i2eedQ_W3qwjaa9yVwHJQl-/view?usp=drive_link" target="_blank" style={{ fontWeight: 'bold', paddingRight: '0px' }} className='link1'>
+                <a href={pdfExports.rules_2017} target="_blank" style={{ fontWeight: 'bold', paddingRight: '0px' }} className='link1'>
                   link
                 </a>
                 )
